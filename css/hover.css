@@ -1,0 +1,59 @@
+
+.usu:hover {
+    background-color: rgb(255 255 255 / 60%);
+    position: relative;
+   
+    height: 75px;
+    width: 97%;
+    border: solid  5px;
+    border-radius: 19px;
+}
+.usu h1:hover {
+  
+    color: black;
+  
+}
+
+.usu2:hover {
+    background-color: rgb(255 255 255 / 60%);
+    position: relative;
+   
+    height: 75px;
+    width: 97%;
+    border: solid  5px;
+    border-radius: 19px;
+}
+.usu2 h1:hover {
+  
+    color: black;
+  
+}
+
+.usua2:hover {
+    background-color: rgb(255 255 255 / 60%);
+    position: relative;
+    height: 75px;
+    width: 97%;
+    border: solid 5px;
+    border-radius: 19px;
+}
+.usua2 h1:hover {
+  
+    color: black;
+  
+}
+.asis:hover {
+    background-color: rgb(255 255 255 / 60%);
+    position: relative;
+    height: 100px;
+    width: 86%;
+    top: 59px;
+    border: solid  5px;
+    border-radius: 19px;
+}
+.asis h1:hover {
+  
+    color: black;
+  
+}
+

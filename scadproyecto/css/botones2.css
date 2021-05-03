@@ -1,0 +1,99 @@
+.container1 {
+    width: 797px;
+    border: solid rgb(112, 178, 45) 5px;
+    height: 585px;
+}
+td {
+    background: #00ffff00;
+    border: solid;
+    width: 495px;
+    height: 337px;
+    text-align: center;
+}
+
+.dc1 {
+    border: solid rgb(252,115,35) 5px;
+    height: 70px;
+    width: 98px;
+    
+    position: relative;
+    left: 228px;
+    top: -75px;
+    border-radius: 0px 20px 20px 0px;
+}
+.usu1{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 80px;
+    width: 70%;
+    top: -17px;
+    border: solid rgb(252,115,35) 5px ;
+    border-radius: 20px;
+        
+}
+.reg1{
+    
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 80px;
+    width: 70%;
+    top: 18px;
+    border: solid rgb(252,115,35) 5px ;
+    border-radius: 20px;
+
+}
+.reg2 {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 36px;
+    width: 10%;
+    top: 46px;
+    border: solid rgb(252,115,35) 5px;
+    /* border-radius: 20px; */
+}
+
+.asis1{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 80px;
+    width: 70%;
+    top: 37px;
+    border: solid rgb(252,115,35) 5px ;
+    border-radius: 20px;
+
+}
+
+.usu1 h1 {
+    width: 10px;
+    color: #238276;
+    font-size: 27px;
+    /* text-align: center; */
+    position: relative;
+    right: -31px;
+}
+.reg1 h1 {
+    width: 10px;
+    color: #238276;
+    font-size: 27px;
+    /* text-align: center; */
+    position: relative;
+    right: -31px; 
+}
+.titu {
+    background-color: #ffffff;
+    color: #040404;
+    position: relative;
+    width: 138px;
+    font-size: 17px;
+    top: 13px;
+    left: -149px;
+}
+.reg2 h1 {
+   
+    text-align: center;
+    width: 10px;
+    color: #238276;
+    font-size: 10px;
+  
+  
+}

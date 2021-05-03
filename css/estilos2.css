@@ -1,0 +1,102 @@
+*{
+    
+    font-family: verdana;
+
+}
+
+body{
+    background-color: #9fff8700;}
+.usu{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 80px;
+    width: 70%;
+   
+    border: solid rgb(252,115,35) 5px ;
+    border-radius: 20px;
+        
+}
+.reg{
+    
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 80px;
+    width: 70%;
+    top: 18px;
+    border: solid rgb(252,115,35) 5px ;
+    border-radius: 20px;
+
+}
+.asis{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 80px;
+    width: 70%;
+    top: 37px;
+    border: solid rgb(252,115,35) 5px ;
+    border-radius: 20px;
+
+}
+
+.marco {
+    font-size: 30px;
+    background-color: rgb(255 255 255 / 0%);
+    position: relative;
+    height: 271px;
+    width: 696px;
+    top: 61px;
+    border: solid rgb(252 115 35 / 0%) 5px;
+    border-radius: 20px;
+}
+.marcoti {
+    height: 7em;
+    width: 63%;
+    position: relative;
+    top: 2em;
+    background-color: #70b22d;
+    BORDER-RADIUS: -14px;
+}
+.titulo {
+    height: 7em;
+    width: 108%;
+    position: relative;
+    float: left;
+    left: -15px;
+    background-color: rgb(11, 65, 241);
+    background-image: url(icono_sena.png);
+    background-size: 34em 7em;
+    background-repeat: no-repeat;
+}
+.titulo ti {
+    position: relative;
+    left: 73px;
+    top: 37.9px;
+    font-size: 16px;
+    text-align: center;
+    color: #01a6bd;
+    font-family: verdana;
+    font-weight: 600;
+}
+.container {
+    width: 797px;
+    border: solid rgb(112, 178, 45) 5px;
+    height: 31em;
+}
+.dc {
+    border: solid rgb(252,115,35) 5px;
+    height: 70px;
+    width: 98px;
+    
+    position: relative;
+    left: 368px;
+    top: -75px;
+    border-radius: 0px 20px 20px 0px;
+}
+h2 {
+    font-size: 29px;
+    position: relative;
+    top: -6px;
+}
+td{
+    background: aqua;
+}

@@ -1,0 +1,58 @@
+
+https://form.jotform.com/210896882135666
+
+  <center><div class="doc">
+                        <center><div class="tip1">
+                                    
+                            <select id="m1"class="form-control" name="centro_f" require/>                        
+                                <option class="form-control" value="0"><h1>Centro de formación</h1></option>
+                                        <?php
+                                        $mysqli = new mysqli('127.0.0.1', 'root', '', 'bd_proyecto');
+                                        $query = $mysqli -> query ("SELECT * FROM centro_formacion");
+                                        while ($valores = mysqli_fetch_array($query)) {
+                                            echo '<option value="'.$valores[id_centro].'">'.$valores[nombre_centro].'</option>';
+                                        } 
+                                        ?>         
+                            </select>
+                            <label class="lgris"><h1></h1></label>                        
+                                <select id="m1"class="form-control" name="progra_f" require/>                        
+                                    <option class="form-control" value="0"><h1>Programa de formación</h1></option>
+                                            <?php
+                                        
+                                        $mysqli = new mysqli('127.0.0.1', 'root', '', $base_datos);
+                                            $query = $mysqli -> query ("SELECT * FROM $tabla");
+                                            while ($valores = mysqli_fetch_array($query)) {
+                                                echo '<option value="'.$valores[$id].'">'.$valores[$nombre_pro1].'</option>';
+                                            }  
+                                            ?>         
+                                </select>
+                                <label class="lgris"></label>                        
+                                    <select id="m1"class="form-control" name="tipo_p" require/>                        
+                                        <option class="form-control" value="0"><h1>Tipo de programa</h1></option>
+                                                <?php
+                                                $mysqli = new mysqli('127.0.0.1', 'root', '', $base_datos);
+                                                $query = $mysqli -> query ("SELECT * FROM $tabla1");
+                                                while ($valores = mysqli_fetch_array($query)) {
+                                                    echo '<option value="'.$valores[$id1].'">'.$valores[$tipo_pro1].'</option>';
+                                                }  
+                                                ?>         
+                                    </select>  
+                                <label class="lgris"></label>                        
+                                    <select id="m1"class="form-control" name="num_f" require/>                        
+                                        <option class="form-control" value="0"><h1>Número de ficha</h1></option>
+                                                <?php
+                                                $mysqli = new mysqli('127.0.0.1', 'root', '', 'bd_proyecto');
+                                                $query = $mysqli -> query ("SELECT * FROM  fichas");
+                                                while ($valores = mysqli_fetch_array($query)) {
+                                                    echo '<option value="'.$valores[num_fichas].'">'.$valores[num_fichas].'</option>';
+                                                }  
+                                                ?> 
+                                                    
+                                    </select> 
+                                    <label class="lgris"></label>  <br> 
+                                    <input class="form-control" type="text" name="contra"  value="" placeholder="Escriba una contraseña" required/>              
+
+                        </div></center>
+                    </div></center>
+                            
+
